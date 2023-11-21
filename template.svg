@@ -299,7 +299,7 @@
 
   <!-- Work ... -->
   <g transform="translate(10, 120)" class="msg-3">
-    <rect width="439" height="66.1302" rx="18.0355" class="bubble" />
+    <rect width="425" height="66.1302" rx="18.0355" class="bubble" />
     <text x="15" y="27">I’m a software engineer at Teq, currently working</text>
     <text x="15" y="50">on a project called iBlocks Online.</text>
   </g>
@@ -324,10 +324,10 @@
 
   <!-- Twitter -->
   <g transform="translate(10, 192)" class="msg-4">
-    <rect width="513" height="42" rx="18.0355" class="bubble" />
+    <rect width="325" height="42" rx="18.0355" class="bubble" />
     <text x="15" y="27">
-      You can find me on Twitter at
-      <a xlink:href="https://twitter.com/jasonlong">https://twitter.com/jasonlong</a>
+      You can find me on github 
+      <a xlink:href="https://github.com/MomentsOfInsanity">right here</a>
     </text>
   </g>
 
