@@ -1,2 +1,1 @@
-[![](https://raw.githubusercontent.com/MomentsOfInsanity/MomentsOfInsanity/main/chat.svg?token=AAABPWFQB3UQVH67GAPKNRLAXLBQG)]
-
+[![](https://raw.githubusercontent.com/MomentsOfInsanity/MomentsOfInsanity/main/chat.svg)](https://github.com/MomentsOfInsanity)

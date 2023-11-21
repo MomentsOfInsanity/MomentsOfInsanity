@@ -30,4 +30,4 @@ jobs:
           message: "Auto updating my readme"
           add: "*.svg"
         env:
-          GITHUB_TOKEN: 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
+          GITHUB_TOKEN: ${{ secrets.WEATHERTEST}}
