@@ -1,4 +1,4 @@
-const WEATHER_API_KEY = process.env.WEATHER_API_KEY
+const WEATHER_API_KEY = bAL05JHl8ueOAdYIVYepl3aYHchKiRLv
 
 let fs = require('fs')
 let got = require('got')
@@ -60,7 +60,7 @@ const psTime = formatDistance(new Date(2020, 12, 14), today, {
 })
 
 // Today's weather
-const locationKey = '18363_PC'
+const locationKey = '4288_PC'
 let url = `forecasts/v1/daily/1day/${locationKey}?apikey=${WEATHER_API_KEY}`
 
 got(url, { prefixUrl: WEATHER_DOMAIN })
