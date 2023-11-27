@@ -248,9 +248,9 @@
 
   </g>
 
-  <!-- Hi, I'm Jason -->
+  <!-- Hi, I'm Raj -->
   <g transform="translate(10, 0)" class="msg-1 bubble">
-    <rect width="105" height="42" rx="18.0355" />
+    <rect width="107" height="42" rx="18.0355" />
     <text x="15" y="27">Hi, I'm Raj</text>
   </g>
 
@@ -274,7 +274,7 @@
 
   <!-- From Columbus... -->
   <g transform="translate(10, 48)" class="msg-2">
-    <rect width="480" height="66.1302" rx="18.0355" class="bubble" />
+    <rect width="490" height="66.1302" rx="18.0355" class="bubble" />
     <text x="15" y="27">I live on Long Island, New York where it’s supposed to be</text>
     <text x="15" y="50">49° F (9° C) and <tspan class="emoji">🌥</tspan> today.</text>
   </g>
@@ -351,7 +351,7 @@
 
   <!-- Thanks -->
   <g transform="translate(10, 240)" class="msg-5">
-    <rect width="225" height="42" rx="18.0355" class="bubble" />
+    <rect width="215" height="42" rx="18.0355" class="bubble" />
     <text x="15" y="27">Thanks for stopping by</text>
   </g>
 
