@@ -1,4 +1,4 @@
-const WEATHER_API_KEY = 'bAL05JHl8ueOAdYIVYepl3aYHchKiRLv'
+const WEATHER_API_KEY = 'zpka_2e21e1298fa045348f4b616ca7f8a9b4_f098e268'
 
 let fs = require('fs')
 let got = require('got')
@@ -61,9 +61,15 @@ const psTime = formatDistance(new Date(2020, 12, 14), today, {
 
 // Today's weather
 const locationKey = '4288_PC'
-let url = `forecasts/v1/daily/1day/${locationKey}?apikey=${WEATHER_API_KEY}`
+let path = `forecasts/v1/daily/1day/${locationKey}`
 
-got(url, { prefixUrl: WEATHER_DOMAIN })
+got(path, {
+  prefixUrl: WEATHER_DOMAIN,
+  searchParams: { /* keep empty or include other params */ },
+  headers: {
+    Authorization: `Bearer ${WEATHER_API_KEY}`,
+  },
+})
   .then((response) => {
     console.log(response.body)
     let json = JSON.parse(response.body)
